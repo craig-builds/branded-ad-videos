@@ -12,8 +12,26 @@ Small businesses need video for Reels, TikTok and Stories, but agencies are expe
 4. **Renders the video** from a data-driven template: scenes, timing, palette and assets are described in one blueprint file, so a new ad is a new blueprint rather than new code.
 5. **Outputs** a social-ready MP4 in landscape or vertical.
 
-## Proof of use
-- A 59-second ad for a fish-and-chips takeaway, with a 3D ocean scene and a researched script: [superfastseaflight.co.za](https://superfastseaflight.co.za).
+## Examples made with it
+Click a thumbnail to watch the video.
+
+### Strada Studio — studio brand ad (35s)
+[![Strada Studio ad](videos/strada-studio-ad.jpg)](videos/strada-studio-ad.mp4)
+
+### Pets Lab GQ — pet shop ad (42s)
+Product-led story built around the shop's blue-and-gold macaw.
+
+[![Pets Lab GQ ad](videos/pets-lab-gq-ad.jpg)](videos/pets-lab-gq-ad.mp4)
+
+### Altus Accounting (Finworx platform) — accounting software ad (42s)
+Animated dashboard story showing cash position, VAT readiness and the bank feed.
+
+[![Altus Accounting ad](videos/altus-accounting-ad.jpg)](videos/altus-accounting-ad.mp4)
+
+### Super Fast Seaflight — takeaway ad (40s)
+Menu, price and WhatsApp-order story for a fish-and-chips shop in Korsten, Gqeberha.
+
+[![Super Fast Seaflight ad](videos/super-fast-seaflight-ad.jpg)](videos/super-fast-seaflight-ad.mp4)
 
 ## Stack
 Claude Code skills, Remotion (React video), three.js, Python helpers for audio, AI voice and image services.
