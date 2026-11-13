@@ -36,6 +36,15 @@ Menu, price and WhatsApp-order story for a fish-and-chips shop in Korsten, Gqebe
 ## Stack
 Claude Code skills, Remotion (React video), three.js, Python helpers for audio, AI voice and image services.
 
+## Issues I ran into & how I solved them
+- **AI voice-over and picture drifted out of sync** once scenes got re-ordered or re-timed. I solved this by generating word-level timestamps from the voice-over first and driving every scene cut from those timestamps, instead of hand-timing each cut.
+- **Every new client meant touching render code**, which didn't scale. I separated the content (a per-business blueprint file describing scenes, timing, palette and assets) from the renderer, so a new ad for a new business is a new blueprint, not new code.
+- **Off-brand results from generic AI video tools** was the original complaint I was trying to fix, so brand colours, logo and fonts are pulled directly from the client's own assets into the template rather than left to a model to guess.
+- **Rendering cost and turnaround** for four client ads needed to stay fast enough to be worth doing per-client; moving to a data-driven Remotion pipeline cut each new ad down to a blueprint edit and a render, not a rebuild.
+
+## Result
+Four finished, on-brand, voiced video ads shipped for real client businesses (Strada Studio, Pets Lab GQ, Finworx/Altus Accounting, Super Fast Seaflight) from the same reusable skill, each in landscape or vertical social-ready MP4.
+
 ## Why it matters
 It shows I can package an AI workflow into something repeatable: a defined input, a consistent process and a dependable output that a non-technical business owner can use.
 
